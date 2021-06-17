@@ -1,0 +1,27 @@
+@media (max-width: 1800px){
+    .setting__logo{
+        right: -5%;
+    }
+}
+
+@media (max-width: 1365px){
+    .settings,
+    .watch,
+    .start__dev{
+        display: none;
+    }
+
+    h1{
+        display: inline;
+        font-size: 40px;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        display: grid;
+        place-items: center;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+}
